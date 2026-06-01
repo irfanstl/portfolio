@@ -15,7 +15,11 @@ export default function Projects() {
 
       <div className="projects-grid">
         {projectList.map((project) => (
-          <div className="card project-card" key={project._id || project.id} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '100%', minHeight: '220px' }}>
+          <div className="card project-card" key={project._id || project.id} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '100%', minHeight: '320px' }}>
+            <div className="project-img-container" style={{ height: '130px', overflow: 'hidden', margin: '-18px -18px 12px -18px', borderBottom: '0.5px solid var(--border-color)', borderRadius: '5px 5px 0 0' }}>
+              <img src={project.img} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            </div>
+            
             <div className="project-info" style={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
               <h3 className="card-title" style={{ fontSize: '15px', fontWeight: '500', marginBottom: '8px', color: 'var(--text-primary)' }}>{project.title}</h3>
               <p className="project-desc" style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '12px', lineHeight: '1.5', flexGrow: 1 }}>{project.tagline}</p>

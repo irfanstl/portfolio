@@ -55,7 +55,7 @@ export const staticProjects = [
     id: 'proj-1',
     title: 'E-Commerce Platform',
     tagline: 'A secure, high-throughput online store featuring dynamic inventory, integrated payment pipelines, and automated bot prevention.',
-    img: '/assets/project_ecom.png',
+    img: '/assets/project_ecommerce.png',
     desc: 'Implemented secure payment processing using the Razorpay API with robust webhook handling for transaction verification. Integrated Google reCAPTCHA on authentication and checkout routes to mitigate brute-force attacks and automated bot spam. Designed a relational architecture in MySQL / flexible document layout in MongoDB to manage complex product catalogs, user sessions, and order history.',
     stack: ['React', 'Node.js', 'Razorpay', 'reCAPTCHA', 'Tailwind CSS'],
     metrics: {
@@ -72,7 +72,7 @@ export const staticProjects = [
     id: 'proj-2',
     title: 'Food Delivery Site',
     tagline: 'A real-time food delivery application with distinct user flows, state-managed shopping carts, and persistent backend storage.',
-    img: '/assets/project_dashboard.png',
+    img: '/assets/project_food_delivery.png',
     desc: 'Engineered a seamless, lightning-fast frontend cart state using React Hooks and styled with Tailwind CSS. Utilized Firebase for rapid user authentication and real-time backend updates. Constructed a RESTful API with Express.js and Node.js to manage restaurant menus, order statuses, and user profiles.',
     stack: ['React', 'Express.js', 'Firebase', 'Tailwind CSS', 'MongoDB'],
     metrics: {
