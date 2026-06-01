@@ -65,8 +65,8 @@ export const staticProjects = [
     },
     challenge: 'Preventing automated bot spam during checkouts and establishing robust transaction validation.',
     solution: 'Configured Cloudflare DNS and reCAPTCHA score thresholds on Express endpoints alongside strict Razorpay webhook signatures.',
-    github: 'https://github.com/irfanstl',
-    demo: 'https://mangobite.irfan28.shop/'
+    github: 'https://github.com/irfanstl/e-commerce',
+    demo: 'https://nexus.irfan28.shop/'
   },
   {
     id: 'proj-2',
@@ -82,8 +82,8 @@ export const staticProjects = [
     },
     challenge: 'Constructing dynamic menu state updates alongside instant checkout response loops.',
     solution: 'Developed localized reducer structures inside React context to manage active cart updates without page refreshes.',
-    github: 'https://github.com/irfanstl',
-    demo: 'https://nexus.irfan28.shop/'
+    github: 'https://github.com/irfanstl/food-delivery',
+    demo: 'https://mangobite.irfan28.shop/'
   }
 ];
 
