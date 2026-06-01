@@ -40,7 +40,7 @@ export const staticEducation = [
   {
     degree: 'Bachelor of Engineering (B.E.) in Information Technology',
     institution: 'International Institute of Information Technology (I2IT)',
-    period: '2022 - 2026',
+    period: '',
     grade: 'Active Student',
     courses: [
       'Systems Analysis',

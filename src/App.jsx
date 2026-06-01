@@ -158,25 +158,6 @@ export default function App() {
               >
                 View My Projects
               </button>
-              <a 
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="project-btn" 
-                style={{ 
-                  padding: '10px 20px', 
-                  fontSize: '11px', 
-                  fontWeight: '600', 
-                  textTransform: 'uppercase', 
-                  letterSpacing: '0.05em',
-                  textDecoration: 'none',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center'
-                }}
-              >
-                Read My Resume
-              </a>
             </div>
           </div>
 
